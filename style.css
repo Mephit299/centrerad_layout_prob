@@ -1,0 +1,42 @@
+body{
+    font-family: sans-serif;
+    max-width: min(80ch, 100vw - 2rem);
+    margin-inline: auto;
+    
+
+    
+}
+
+.container{
+    
+}
+
+main{
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+img{
+        max-width: 100%;
+}
+figure{
+    margin: 0%;
+    padding-bottom: 1rem;
+}
+
+nav{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    & ul{
+        list-style: none;
+        display: flex;
+        gap: 2ch;
+    }
+    & img{
+        display: flex;
+        max-width: 60px;
+    }
+}
