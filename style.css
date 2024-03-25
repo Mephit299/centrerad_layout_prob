@@ -20,6 +20,7 @@ figure{
 }
 
 nav{
+    font-size: 1.6rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
     display: flex;
